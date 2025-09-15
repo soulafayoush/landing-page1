@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import Layout from "@/components/layout";
-import { FixedPlugin } from "@/components/fixed-plugin";
+import Layout from "../components/layout";
+import { FixedPlugin } from "../components/fixed-plugin";
 
 const roboto = Roboto({
   subsets: ["latin"],
