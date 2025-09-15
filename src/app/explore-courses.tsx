@@ -1,7 +1,7 @@
 "use client";
 
-import { CustomTypography as Typography } from "@/components/CustomTypography";
-import CourseCard from "@/components/course-card";
+import { CustomTypography as Typography } from "../components/CustomTypography";
+import CourseCard from "../components/course-card";
 
 const COURSES = [
   {

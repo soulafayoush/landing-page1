@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { CustomCardBody as CardBody } from "@/components/CustomCardBody";
-import { CustomCard as Card } from "@/components/CustomCard"; 
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomCardBody as CardBody } from "../components/CustomCardBody";
+import { CustomCard as Card } from "../components/CustomCard"; 
+import { CustomTypography as Typography } from "../components/CustomTypography";
 interface CategoryCardProps {
   img: string;
   title: string;

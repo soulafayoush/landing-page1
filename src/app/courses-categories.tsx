@@ -1,8 +1,8 @@
 "use client";
-import { SimpleButton as Button } from "@/components/SimpleButton";
-import { CustomCardBody as CardBody } from "@/components/CustomCardBody";
-import { CustomCard as Card } from "@/components/CustomCard"; 
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { SimpleButton as Button } from "../components/SimpleButton";
+import { CustomCardBody as CardBody } from "../components/CustomCardBody";
+import { CustomCard as Card } from "../components/CustomCard"; 
+import { CustomTypography as Typography } from "../components/CustomTypography";
 import Image from "next/image";
 import Link from "next/link";
 function Services() { 

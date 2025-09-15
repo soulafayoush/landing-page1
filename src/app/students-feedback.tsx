@@ -3,9 +3,9 @@
 import React from "react";
 
 
-import FeedbackCard from "@/components/feedback-card";
+import FeedbackCard from "../components/feedback-card";
 
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomTypography as Typography } from "../components/CustomTypography";
 
 const FEEDBACKS = [
   {

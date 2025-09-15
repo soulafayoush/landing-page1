@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { CustomCardHeader as CardHeader } from "@/components/CustomCardHeader";
-import { SimpleButton as Button } from "@/components/SimpleButton";
-import { CustomCardBody as CardBody } from "@/components/CustomCardBody";
-import { CustomCard as Card } from "@/components/CustomCard"; 
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomCardHeader as CardHeader } from "../components/CustomCardHeader";
+import { SimpleButton as Button } from "../components/SimpleButton";
+import { CustomCardBody as CardBody } from "../components/CustomCardBody";
+import { CustomCard as Card } from "../components/CustomCard"; 
+import { CustomTypography as Typography } from "../components/CustomTypography";
 interface EventCardProps {
   img: string;
   title: string;

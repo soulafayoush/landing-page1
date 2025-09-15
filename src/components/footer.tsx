@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomTypography as Typography } from "../components/CustomTypography";
 import Image from "next/image"; 
 import { FaWhatsapp, FaInstagram, FaEnvelope, FaPaypal, FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineLocalAtm } from "react-icons/md";

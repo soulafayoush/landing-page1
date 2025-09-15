@@ -1,6 +1,6 @@
 import React from "react";
-import { CustomCard as Card } from "@/components/CustomCard"; 
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomCard as Card } from "../components/CustomCard"; 
+import { CustomTypography as Typography } from "../components/CustomTypography";
 interface StatsCardProps {
   icon: React.ElementType;
   count: string;

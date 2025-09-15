@@ -1,6 +1,6 @@
 "use client";
 
-import { SimpleButton as Button } from "@/components/SimpleButton";
+import { SimpleButton as Button } from "../components/SimpleButton";
 
 export function FixedPlugin() {
   return (

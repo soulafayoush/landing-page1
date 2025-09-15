@@ -2,8 +2,8 @@
 
 import React from "react";
 
-import EventCard from "@/components/event-card";
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import EventCard from "../components/event-card";
+import { CustomTypography as Typography } from "../components/CustomTypography";
 // Update the EVENTS array to include a URL for each event
 const EVENTS = [
   {

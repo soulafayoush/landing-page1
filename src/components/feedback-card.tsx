@@ -2,8 +2,8 @@
 
 import React from "react";
 import Image from "next/image"; // أضف هذا الاستيراد
-import { CustomCardBody as CardBody } from "@/components/CustomCardBody";
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomCardBody as CardBody } from "../components/CustomCardBody";
+import { CustomTypography as Typography } from "../components/CustomTypography";
 
 interface FeedbackCardProps {
   img?: string;

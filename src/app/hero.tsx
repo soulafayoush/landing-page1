@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 
-import { CustomTypography as Typography } from "@/components/CustomTypography";
-import { CustomCard as Card } from "@/components/CustomCard"; 
+import { CustomTypography as Typography } from "../components/CustomTypography";
+import { CustomCard as Card } from "../components/CustomCard"; 
 function Hero() {
   return (
     <div className="!flex h-[55vh] w-full items-center justify-center px-10 text-center">

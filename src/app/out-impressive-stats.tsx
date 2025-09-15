@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomTypography as Typography } from "../components/CustomTypography";
 import {
   UserGroupIcon,
   AcademicCapIcon,

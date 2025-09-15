@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { CustomTypography as Typography } from "@/components/CustomTypography";
+import { CustomTypography as Typography } from "../components/CustomTypography";
 
 const ACHIEVEMENTS = [
   {
