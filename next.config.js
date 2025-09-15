@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // ✅ دمج إعدادات الصور هنا
   images: {
     remotePatterns: [
       {
@@ -8,17 +7,8 @@ const nextConfig = {
         hostname: '**'
       }
     ],
-        unoptimized: true 
-  },
-
-  // ✅ دمج إعدادات Webpack هنا
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack']
-    })
-    return config
+    unoptimized: true
   }
 }
 
-module.exports = nextConfig
+export default nextConfig

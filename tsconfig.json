@@ -20,8 +20,11 @@
     ],
     "baseUrl": ".",  
     "paths": {
-      "@/*": ["src/*"]
-    },
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*"] // ✅ إضافة هذه السطر
+
+  },
+
     "forceConsistentCasingInFileNames": true
   },
   "include": [
